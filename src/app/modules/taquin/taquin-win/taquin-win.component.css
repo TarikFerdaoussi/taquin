@@ -1,0 +1,23 @@
+.grid {
+    position: relative;
+    width: 400px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    margin: auto;
+  }
+
+  .text{
+    color: green;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .big {
+    font-size: 72px;
+  }
+
+  .small {
+      font-size: 50px;
+  }

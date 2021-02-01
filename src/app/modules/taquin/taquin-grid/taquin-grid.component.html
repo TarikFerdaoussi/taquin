@@ -1,0 +1,9 @@
+<div class="grid">
+    <div *ngFor="let number of grid" (click)="clickOnNumber(number)"  [ngClass]="{'item' : number.value !== 0, 'special': number.value === 0}">
+        <span *ngIf="number.value !== 0">{{number.value}}</span>
+    </div>
+</div>
+<div class="score">
+    <div>Moves : {{count}}</div>
+    <button (click)="initGrid()">Rejouer</button>   
+</div>
