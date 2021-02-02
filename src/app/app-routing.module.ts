@@ -7,6 +7,11 @@ const routes: Routes = [
     loadChildren: () => import('./modules/taquin/taquin.module')
       .then(mod => mod.TaquinModule)
   },
+  {
+    path: '',
+    loadChildren: () => import('./modules/taquin/taquin.module')
+      .then(mod => mod.TaquinModule)
+  },
 ];
 
 @NgModule({
