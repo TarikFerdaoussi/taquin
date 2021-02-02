@@ -13,4 +13,4 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Demo
 
-You can try it here : `https://tarikferdaoussi.github.io/taquin/`
+You can try it here : [DEMO](https://tarikferdaoussi.github.io/taquin/taquin)
