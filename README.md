@@ -2,9 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
 
+## First start
+
+Run `npm install` to install all dependencies.
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` if angular-cli is installed or `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 
 ## Build
